@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Testing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                Software Testing
+            </div>
+        </div>
+        <div class="fxn1-title">
+            The DisemVOWELer
+        </div>
+        <div class="fxn1">
+            <div class="string-input">
+                <form onsubmit="disemvowel(event)">
+                    <input id="vowel-input" type="text" placeholder="String to be edited">
+                    
+                </form>
+            </div>
+            <button class="rid-button" id="rid-button">
+                Press Enter
+            </button>
+        </div>
+        <div class="fxn1-result" id="fxn1-result">
+
+        </div>
+        <div class="fxn2-title">
+            The Multiplier
+        </div>
+        <div class="fxn2">
+            <div class="num1-input">
+                <form onsubmit="multiply(event)">
+                    <input type="text">
+                </form>
+            </div>
+            <div class="multSymbol">
+                X
+            </div>
+            <div class="num2-input">
+                <form onsubmit="multiply(event)">
+                    <input type="text">
+                </form>
+            </div>
+            <div class="eqButton">
+                = (Press Enter)
+            </div>
+        </div>
+        <div class="fxn2-result" id="fxn2-result">
+
+        </div>
+    </div>
+</body>
+<script src="function.js"></script>
+</html>

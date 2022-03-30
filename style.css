@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(235, 21%, 11%);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 30px;
+    margin-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: lavender;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.fxn1-title {
+    margin-top: 50px;
+    color: rgb(141, 96, 173);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.fxn1 {
+    background-color: lavender;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.string-input {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.string-input form {
+    flex-grow: 1;
+}
+
+.string-input input {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: lavender;
+    border: none;
+    outline: none;
+    color: hsl(235, 21%, 11%);
+    font-size: 28px;
+}
+
+.rid-button {
+    background-color: green;
+    width: 140px;
+    outline: none;
+    border: ridge;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: lavender;
+}
+
+.fxn1-result {
+    color: darkorchid;
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.fxn2-title {
+    margin-top: 50px;
+    color: rgb(141, 96, 173);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.fxn2 {
+    height: 70px;
+    margin-top: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multSymbol {
+    width: 80px;
+    color: lavender;
+    font-size: 40px;
+    font-family: 'Josefin Sans',sans-serif;
+    padding: 10px;
+}
+
+.num1-input {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+}
+
+.num1-input form {
+    flex-grow: 1;
+}
+
+.num1-input input {
+    width: 80px;
+    padding: 10px 0px;
+    background-color: lavender;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(235, 21%, 11%);
+    font-size: 28px;
+}
+
+.num2-input {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+}
+
+.num2-input form {
+    flex-grow: 1;
+}
+
+.num2-input input {
+    width: 80px;
+    padding: 10px 0px;
+    background-color: lavender;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(235, 21%, 11%);
+    font-size: 28px;
+}
+
+.eqButton {
+    background-color: green;
+    width: 130px;
+    height: 50px;
+    outline: none;
+    border: ridge;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: lavender;
+}
